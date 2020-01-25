@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const compression = require("compression");
-
+const PORT = process.env.PORT || 8000;
 app.use(compression());
 
 app.use(express.static("./public"));
@@ -20,6 +20,6 @@ app.get("*", function(req, res) {
     res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(8080, function() {
+app.listen(PORT, function() {
     console.log("I'm listening.");
 });
