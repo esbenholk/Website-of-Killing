@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FifthDimension from "./fifthdimension";
 import Startpage from "./startpage";
 
-let images = ["https://www.instagram.com/p/B7a36nlls9v/"];
+let images = [];
 export default class App extends Component {
     constructor(props) {
         super(props);
