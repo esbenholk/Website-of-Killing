@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 8080;
 app.use(compression());
 
 app.use(express.static("./public"));
+
 if (process.env.NODE_ENV != "production") {
     app.use(
         "/bundle.js",
