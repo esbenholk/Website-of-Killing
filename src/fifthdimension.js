@@ -235,19 +235,11 @@ export default class FifthDimension extends Component {
     }
     render() {
         return (
-            <div>
-                <a
-                    className="hiddenmessage"
-                    href="https://www.facebook.com/esbenholk"
-                >
+            <div className="hiddenmessage">
+                <a href="https://www.facebook.com/esbenholk">
                     <h1> nosy lil internet native arent u? </h1>
                 </a>
             </div>
         );
     }
 }
-
-// style={{ width: "400px", height: "400px" }}
-// ref={mount => {
-//     this.mount = mount;
-// }}
