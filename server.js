@@ -8,6 +8,7 @@ app.use(express.static("./public"));
 
 if (process.env.NODE_ENV != "production") {
     console.log("1 app.use /bundle.js, require middleware");
+    console.log(process.env);
     app.use(
         "/bundle.js",
         require("http-proxy-middleware")({
