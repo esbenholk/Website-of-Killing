@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FifthDimension from "./fifthdimension";
 import Startpage from "./startpage";
 
-let images = [];
+let images = ["./artcv.jpg", "./projects/fanficballhaus.jpg"];
 export default class App extends Component {
     constructor(props) {
         super(props);
