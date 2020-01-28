@@ -94,7 +94,12 @@ canvas.on {
     margin: 0;
     z-index: 999999;
 }
-
+.gameOrArchiveToggler {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999999999999;
+}
 .hiddenmessage {
     visibility: hidden;
 }

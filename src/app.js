@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import FifthDimension from "./fifthdimension";
 import Startpage from "./startpage";
+import Archive from "./archive.js";
 
+let game = true;
 let images = [
     "./artcv.jpg",
     "./projects/fanficballhaus.jpg",
@@ -12,12 +14,31 @@ let images = [
 export default class App extends Component {
     constructor(props) {
         super(props);
-        this.state = { gametoggled: false };
+        this.state = {
+            gametoggled: false,
+            gameOrArchive: "game",
+            buttontext: "change to archive view"
+        };
+        this.changeToArchiveOrGame = this.changeToArchiveOrGame.bind(this);
         this.setConditional = this.setConditional.bind(this);
     }
 
-    componentDidMount() {}
-
+    componentDidMount() {
+        console.log(this.state);
+    }
+    changeToArchiveOrGame() {
+        if (this.state.gameOrArchive == "game") {
+            this.setState({
+                gameOrArchive: "archive",
+                buttontext: "change to game"
+            });
+        } else {
+            this.setState({
+                gameOrArchive: "game",
+                buttontext: "change to archive view"
+            });
+        }
+    }
     setConditional() {
         if (this.state.gametoggled == false) {
             this.setState({ gametoggled: true });
@@ -31,14 +52,29 @@ export default class App extends Component {
     }
 
     render() {
+        const gameOrArchive = this.state.gameOrArchive;
+        let gameorarchivecomponenet;
+        if (gameOrArchive == "game") {
+            gameorarchivecomponenet = (
+                <button
+                    className="gameOrArchiveToggler"
+                    onClick={this.changeToArchiveOrGame}
+                >
+                    {" "}
+                    {this.state.buttontext}{" "}
+                </button>
+            );
+        } else if (gameOrArchive == "archive") {
+            gameorarchivecomponenet = <Archive />;
+        }
         return (
             <div id="app">
                 <FifthDimension
                     setConditional={this.setConditional}
                     images={images}
                 />
-                ;
                 <Startpage />
+                {gameorarchivecomponenet}
             </div>
         );
     }

@@ -33,19 +33,21 @@ export default class FifthDimension extends Component {
     componentDidMount() {
         this.init();
         this.animate();
-        document.addEventListener("click", this.toggleGame, false); ///activates mouse focus control
+        document.addEventListener("keydown", this.toggleGame, false); ///activates mouse focus control
         document.addEventListener("keydown", this.onKeyDown);
         document.addEventListener("keyup", this.onKeyUp);
     }
-    toggleGame() {
-        if (online == false) {
-            controls.lock();
-            this.moveHeadlines();
-            online = true;
-            this.props.setConditional();
-        } else {
-            controls.unlock();
-            online = false;
+    toggleGame(event) {
+        if (event.keyCode === 82) {
+            if (online == false) {
+                controls.lock();
+                this.moveHeadlines();
+                online = true;
+                this.props.setConditional();
+            } else {
+                controls.unlock();
+                online = false;
+            }
         }
     }
     moveHeadlines() {
