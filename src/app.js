@@ -2,7 +2,13 @@ import React, { Component } from "react";
 import FifthDimension from "./fifthdimension";
 import Startpage from "./startpage";
 
-let images = ["./artcv.jpg", "./projects/fanficballhaus.jpg"];
+let images = [
+    "./artcv.jpg",
+    "./projects/fanficballhaus.jpg",
+    "https://houseofkillingimageboard.s3.amazonaws.com/-LF7DPGgC0j7VcDKwl0cufQsSlvlgy_x.jpg",
+    "https://houseofkillingwebsite.s3.amazonaws.com/socialmediapic.jpg",
+    "https://houseofkillingimageboard.s3.amazonaws.com/0ma9eX_sSANWXxo_jqOTTQzlznDhS8-y.png"
+];
 export default class App extends Component {
     constructor(props) {
         super(props);

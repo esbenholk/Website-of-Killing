@@ -174,9 +174,11 @@ export default class FifthDimension extends Component {
                 map: boxImage
             });
             var box = new THREE.Mesh(boxGeometry, boxMaterial);
-            box.position.x = Math.floor(Math.random() * 20 - 10);
-            box.position.y = Math.floor(Math.random() * 20);
-            box.position.z = Math.floor(Math.random() * 20 - 10);
+            box.position.x =
+                Math.floor(Math.random() * 20 - 10) * this.props.images.length;
+            box.position.y = Math.floor(Math.random() * 20) * 2;
+            box.position.z =
+                Math.floor(Math.random() * 20 - 10) * this.props.images.length;
             boxes.push(box);
             scene.add(box);
         }
