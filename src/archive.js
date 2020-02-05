@@ -6,17 +6,8 @@ export default class Archive extends Component {
         super(props);
         this.makeVisible = this.makeVisible.bind(this);
     }
-    componentDidMount() {
-        // let projects = document.getElementsByClassName("project");
-        // for (var i = 0; i < projects.length; i++) {
-        //     projects[i].addEventListener(
-        //         "click",
-        //         this.makeVisible(projects[i].name)
-        //     );
-        // }
-    }
+    componentDidMount() {}
     makeVisible(ev) {
-        console.log("before add class", ev.target);
         let projects = document.getElementsByClassName("detail");
         for (var i = 0; i < projects.length; i++) {
             if (projects[i].classList.contains("visible")) {
@@ -24,11 +15,8 @@ export default class Archive extends Component {
             }
         }
         let currentProject = document.getElementById(ev.target.classList[0]);
-        if (currentProject.classList.contains("visible")) {
-            currentProject.classList.remove("visible");
-        } else {
-            currentProject.classList.add("visible");
-        }
+        currentProject.classList.add("visible");
+        console.log(currentProject.classList);
     }
     render() {
         let projects = [];
@@ -49,16 +37,20 @@ export default class Archive extends Component {
                                 {project.name}
                             </button>
                             <div className="detail" id={project.class}>
-                                <p>{project.descriptions}</p>
-                                {project.images.map(image => (
+                                <div className="detailbox">
+                                    <p>{project.descriptions}</p>
                                     <div id="documentation">
-                                        <img
-                                            key={image}
-                                            alt={image}
-                                            src={image}
-                                        ></img>
+                                        {project.images.map(image => (
+                                            <div key={image}>
+                                                <img
+                                                    key={image}
+                                                    alt={image}
+                                                    src={image}
+                                                ></img>
+                                            </div>
+                                        ))}
                                     </div>
-                                ))}
+                                </div>
                             </div>
                         </li>
                     ))}

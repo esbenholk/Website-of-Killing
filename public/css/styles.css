@@ -111,6 +111,9 @@ canvas.on {
     background-color: white;
     z-index: 2147483647;
 }
+#about:hover {
+    cursor: wait;
+}
 
 .musicplayer {
     position: absolute;
@@ -180,6 +183,34 @@ button:focus {
     display: flex;
     flex-direction: column;
 }
+
+.detail {
+    display: none;
+}
+.visible {
+    display: inline-block;
+}
+.detailbox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.detailbox p {
+    width: 300px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 5px;
+}
+#documentation {
+    display: flex;
+    flex-direction: column;
+}
+#documentation img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
 @media only screen and (max-width: 600px) {
     .information {
         display: flex;
@@ -188,24 +219,26 @@ button:focus {
     .information p {
         display: none;
     }
-}
-
-.detail {
-    display: none;
-}
-.visible {
-    display: inline-block;
-}
-#documentation {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end; */
-}
-#documentation img {
-    position: relative;
-    left: 50%;
-    width: 500px;
-    height: auto;
-    object-fit: cover;
+    .detailbox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .detailbox p {
+        width: 100%;
+    }
+    .page {
+        width: 100%;
+        margin: 5px;
+        padding: 10px;
+    }
+    button {
+        font-size: 30px;
+    }
+    #documentation img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 }

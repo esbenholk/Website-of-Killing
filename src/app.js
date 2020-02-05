@@ -3,10 +3,11 @@ import FifthDimension from "./fifthdimension";
 import Startpage from "./startpage";
 import Archive from "./archive.js";
 import About from "./aboutpage.js";
-
+import data from "../data.json";
 console.log("hej baby");
 
 let game = true;
+
 let images = [
     "./artcv.jpg",
     "./projects/fanficballhaus.jpg",
