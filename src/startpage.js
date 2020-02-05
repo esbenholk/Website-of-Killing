@@ -54,7 +54,6 @@ export default class Startpage extends Component {
         renderer.setSize(window.innerWidth, window.innerHeight);
         window.addEventListener("resize", this.onWindowResize);
 
-        console.log("cube build");
         const geometry = new THREE.SphereGeometry(2, 300, 300);
         const textureLoader = new THREE.TextureLoader();
         textureLoader.crossOrigin = "Anonymous";
@@ -84,20 +83,18 @@ export default class Startpage extends Component {
     render() {
         return (
             <div id="startpage">
-                <a href="/">
-                    <h1 id="top" className="headline">
-                        HOUSE OF KILLING
-                    </h1>
-                    <h1 id="bottom" className="headline">
-                        HOUSE OF KILLING
-                    </h1>
-                    <h1 id="left" className="headline">
-                        HOUSE OF KILLING
-                    </h1>
-                    <h1 id="right" className="headline">
-                        HOUSE OF KILLING
-                    </h1>
-                </a>
+                <h1 id="top" className="headline">
+                    HOUSE OF KILLING
+                </h1>
+                <h1 id="left" className="headline">
+                    HOUSE OF KILLING
+                </h1>
+                <h1 id="right" className="headline">
+                    HOUSE OF KILLING
+                </h1>
+                <h1 id="bottom" className="headline">
+                    HOUSE OF KILLING
+                </h1>
             </div>
         );
     }

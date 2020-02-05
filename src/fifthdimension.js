@@ -5,9 +5,9 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
 ////variable scene componenets
 
-console.log("santity check");
 var camera, scene, renderer, controls;
-var raycaster;
+var raycaster = new THREE.Raycaster();
+var mouse = new THREE.Vector2(1, 1);
 var moveForward = false;
 var moveBackward = false;
 var moveLeft = false;
@@ -18,10 +18,10 @@ var velocity = new THREE.Vector3();
 var direction = new THREE.Vector3();
 var online = false;
 let boxes = [];
+let floor;
 
 export default class FifthDimension extends Component {
     constructor(props) {
-        console.log("fifth", props.images);
         super(props);
         this.state = {};
         this.animate = this.animate.bind(this);
@@ -43,8 +43,11 @@ export default class FifthDimension extends Component {
                 controls.lock();
                 this.moveHeadlines();
                 online = true;
-                this.props.setConditional();
             } else {
+                this.moveHeadlines();
+                document
+                    .getElementsByClassName("information")[0]
+                    .classList.remove("on");
                 controls.unlock();
                 online = false;
             }
@@ -52,9 +55,17 @@ export default class FifthDimension extends Component {
     }
     moveHeadlines() {
         var element = document.getElementById("startpage");
-        element.classList.add("on");
         var canvas = document.getElementsByTagName("canvas");
-        canvas[0].classList.add("on");
+        var information = document.getElementsByClassName("information");
+        if (element.classList.contains("on")) {
+            canvas[0].classList.remove("on");
+            element.classList.remove("on");
+            information[0].classList.remove("on");
+        } else {
+            canvas[0].classList.add("on");
+            element.classList.add("on");
+            information[0].classList.add("on");
+        }
     }
     onKeyUp(event) {
         switch (event.keyCode) {
@@ -119,38 +130,24 @@ export default class FifthDimension extends Component {
         controls = new PointerLockControls(camera, document.body);
         scene.add(controls.getObject());
 
-        // raycaster = new THREE.Raycaster(
-        //     new THREE.Vector3(),
-        //     new THREE.Vector3(0, -1, 0),
-        //     0,
-        //     10
-        // );
         function createfloor() {
             let ground = new THREE.PlaneGeometry(1000, 1000, 100, 100);
             ground.rotateX(-Math.PI / 2);
-
-            // let groundImage = textureLoader.load("./artcv.jpg");
-            // let material = new THREE.MeshBasicMaterial({
-            //     map: groundImage
-            // });
             var texture = new THREE.Texture(generateTexture());
             texture.needsUpdate = true; // important!
             var material = new THREE.MeshBasicMaterial({
                 map: texture,
                 overdraw: 0.5
             });
-            var floor = new THREE.Mesh(ground, material);
+            floor = new THREE.Mesh(ground, material);
             scene.add(floor);
             function generateTexture() {
                 var size = 20;
-                // create canvas
                 let floorcolor = document.createElement("canvas");
                 floorcolor.width = size;
                 floorcolor.height = size;
-
                 // get context
                 var context = floorcolor.getContext("2d");
-
                 // draw gradient
                 context.rect(0, 0, size, size);
                 var gradient = context.createLinearGradient(0, 0, size, size);
@@ -168,7 +165,6 @@ export default class FifthDimension extends Component {
 
         // objects
         var boxGeometry = new THREE.BoxGeometry(20, 20, 20);
-
         for (let i = 0; i < this.props.images.length; i++) {
             let boxImage, boxMaterial;
             boxImage = textureLoader.load(this.props.images[i]);
@@ -184,8 +180,6 @@ export default class FifthDimension extends Component {
             boxes.push(box);
             scene.add(box);
         }
-        //
-
         renderer = new THREE.WebGLRenderer({
             antialias: true,
             alpha: true
@@ -193,6 +187,7 @@ export default class FifthDimension extends Component {
         renderer.setPixelRatio(window.devicePixelRatio);
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
+
         //
         window.addEventListener("resize", this.onWindowResize, false);
     }
@@ -202,6 +197,7 @@ export default class FifthDimension extends Component {
         renderer.setSize(window.innerWidth, window.innerHeight);
     }
     animate() {
+        let canvases = document.getElementsByTagName("canvas");
         requestAnimationFrame(this.animate);
         // raycaster.ray.origin.copy(controls.getObject().position);
         // raycaster.ray.origin.y -= 10;
