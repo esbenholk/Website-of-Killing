@@ -74,6 +74,10 @@ export default class Archive extends Component {
                                                         <Iframe
                                                             url={video}
                                                             allowFullScreen
+                                                            frameBorder="0"
+                                                            styles={{
+                                                                border: "0"
+                                                            }}
                                                         ></Iframe>
                                                     </div>
                                                 ))}
