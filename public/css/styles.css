@@ -156,7 +156,6 @@ li {
     margin-bottom: 0;
 }
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -171,6 +170,9 @@ button {
     border: none;
     z-index: 9999999999999;
     background: rgba(0, 0, 0, 0);
+}
+.project button {
+    text-align: left;
 }
 
 button:focus {
@@ -202,9 +204,10 @@ button:focus {
     margin-right: 5px;
     margin-bottom: 10px;
 }
-/* .location {
-    margin-left: 5px;
-} */
+
+.location {
+    margin-left: 20px;
+}
 #documentation {
     display: flex;
     flex-direction: column;
@@ -212,6 +215,11 @@ button:focus {
 #documentation img {
     width: 500px;
     height: auto;
+    object-fit: cover;
+}
+#documentation iframe {
+    width: 500px;
+    height: 300px;
     object-fit: cover;
 }
 

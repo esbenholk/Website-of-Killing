@@ -15,7 +15,7 @@ for (var i = 0; i < data.length; i++) {
 }
 imagearrays.forEach(array => {
     for (var i = 0; i < array.length; i++) {
-        images.push(array[i]);
+        images.push(array[0]);
     }
 });
 

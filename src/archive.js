@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Iframe from "react-iframe";
 import data from "../data.json";
 
 export default class Archive extends Component {
@@ -42,18 +43,18 @@ export default class Archive extends Component {
                                         <p>
                                             {" "}
                                             {project.descriptions} <br></br>
-                                            <br></br>
-                                            <br></br>
-                                            <br></br>
+                                            <br></br>{" "}
+                                        </p>
+                                        <ul>
                                             {project.locations.map(location => (
-                                                <ul
+                                                <li
                                                     key={location}
                                                     className="location"
                                                 >
                                                     {location}
-                                                </ul>
+                                                </li>
                                             ))}
-                                        </p>
+                                        </ul>
                                     </div>
 
                                     <div id="documentation">
@@ -66,6 +67,18 @@ export default class Archive extends Component {
                                                 ></img>
                                             </div>
                                         ))}
+                                        {project.videos.length >= 1 && (
+                                            <div>
+                                                {project.videos.map(video => (
+                                                    <div key={video}>
+                                                        <Iframe
+                                                            url={video}
+                                                            allowFullScreen
+                                                        ></Iframe>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             </div>
