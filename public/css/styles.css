@@ -200,7 +200,11 @@ button:focus {
     text-align: justify;
     text-justify: inter-word;
     margin-right: 5px;
+    margin-bottom: 10px;
 }
+/* .location {
+    margin-left: 5px;
+} */
 #documentation {
     display: flex;
     flex-direction: column;

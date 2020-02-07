@@ -123,7 +123,7 @@ export default class FifthDimension extends Component {
         );
         camera.position.y = 40;
         scene = new THREE.Scene();
-        scene.fog = new THREE.Fog(0xff7ffc, 10, 80);
+        scene.fog = new THREE.Fog(0xff7ffc, 50, 80);
         var light = new THREE.HemisphereLight(0xeeeeff, 0x777788, 0.75);
         light.position.set(0.5, 1, 0.75);
         scene.add(light);
@@ -164,7 +164,7 @@ export default class FifthDimension extends Component {
         createfloor();
 
         // objects
-        var boxGeometry = new THREE.BoxGeometry(20, 20, 20);
+        var boxGeometry = new THREE.BoxGeometry(40, 40, 40);
         for (let i = 0; i < this.props.images.length; i++) {
             let boxImage, boxMaterial;
             boxImage = textureLoader.load(this.props.images[i]);
@@ -172,11 +172,9 @@ export default class FifthDimension extends Component {
                 map: boxImage
             });
             var box = new THREE.Mesh(boxGeometry, boxMaterial);
-            box.position.x =
-                Math.floor(Math.random() * 20 - 10) * this.props.images.length;
+            box.position.x = Math.floor(Math.random() * 20 - 10) * 10;
             box.position.y = Math.floor(Math.random() * 20) * 2;
-            box.position.z =
-                Math.floor(Math.random() * 20 - 10) * this.props.images.length;
+            box.position.z = Math.floor(Math.random() * 20 - 10) * 10;
             boxes.push(box);
             scene.add(box);
         }

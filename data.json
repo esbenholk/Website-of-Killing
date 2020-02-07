@@ -2,31 +2,72 @@
     {
         "name": "Jennifer Aniston Superfans",
         "images": [
-            "https://houseofkillingimageboard.s3.amazonaws.com/-LF7DPGgC0j7VcDKwl0cufQsSlvlgy_x.jpg",
-            "https://houseofkillingwebsite.s3.amazonaws.com/socialmediapic.jpg",
-            "https://houseofkillingimageboard.s3.amazonaws.com/0ma9eX_sSANWXxo_jqOTTQzlznDhS8-y.png"
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/tarotcardreader.png",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/tarotcardreader2.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/tarotcardsontable.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/tarotreading.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/+++.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/IMG_2130.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/IMG_2156.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/iheartberlinevent1.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/iheartberlinevent2.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/iheartberlinevent3.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/fan2ficballhaus0572rohmk.jpg"
         ],
-        "descriptions": "HOUSE OF KILLING feat Esben Holk instigates an empowerment project for internet natives in the intersection of addictive digital tactility and virtuality. It concerns itself with the infinite posthuman experience, the internet and the transformative power of the absence of ontological density in contemporary digital existence. On the post truth internet, the production and consumption of reality, and the resulting emotional state of the browser based extensions of the posthuman, is under constant development as ontologically intangible entity. Trolling, incorrect datafarming on facebook, uncertainty and online activism are options for the subversive internet native to disengage with essentialist notions of truth. I think it is the production of this posthuman circumstance, we find the queer revolution. My hope is that the ontological uncertainty of all things in posthuman perception, including this project, might disqualify all future use of naturalist and essentialist thought by actively engaging the conception of the posthuman as a conscious digital entity, so to further a vehemently anticapitalist, antiracist, antifascist, anticolonialist, cyberfeminist, queer movement! In other words: I want to explore the potential of finding yourself lost on the internet.",
-        "class": "machinelove"
+        "descriptions": "JENNIFER ANISTON SUPERFANS presented by HOUSE OF KILLING feat Esben Holk, 2018 onwards.JENNIFER ANISTON SUPERFANS is an ongoing research project. It uses a preconceived fandom of Jennifer Aniston as basis for the continuous production and dissemination of semi real and unreal content. It becomes an intervention in algorithmic content redistribution: trolling the surveillance apparatus by subverting the search for meaning and adopting connotational cultural reference into the production of uncertainty. Jennifer Aniston as medium is invited to occupy digital space and to become, for a growing group of artists and other practitioners, the posthuman cyborgian hybrid of content, medium, platform and content generator. The superfans in the art project and on the facebook-group number almost 630 people, and include IRL art collaborations with work by Maansi Jain, Cara Lien, Sean Pinearo, Sophie Harkins and Jens Lovgren. With tarotcards, spiritual readings, lifecoaching, video, performance and installation: The superfans are creating mythology!",
+        "locations": [
+            "The Church of Jennifer Aniston, w/ PrettyUgly, @Salon zur Wilde Renate, may 2018, Berlin.",
+            "The Revenge of Jennifer Aniston (the one where she kills Ross), w/ Venganza, @Riot Ipse, june 2018,Berlin",
+            "TedX: How to absorb the ontological uncertainty of Jennifer Aniston intoTM, performance @Gallery Panke, june 2018, Berlin",
+            "Jennifer Aniston Superfans solo, @Retramp Gallery, Berlin, february 2019.",
+            "-.- w/ FanFic Festival, curated by Virtual Theater, @Ballhaus Ost, Berlin March 2019.",
+            "-.- w/ Fanfiction, curated by Bad Art Presents, @Dog & Bone, London, March 2019.",
+            "Jennifer Aniston Superfans Tarot Reading @ IHEARTBERLIN, december 2019, Bikini Berlin",
+            "UPCOMING: Jennifer Aniston Superfans Livestream w/ BLA CONNECT, curated by Robert Sakrowski, june 2020 Los Angeles"
+        ],
+        "class": "aniston"
     },
     {
-        "name": "a third project",
+        "name": "waiting 4 content",
         "images": [
-            "https://houseofkillingimageboard.s3.amazonaws.com/-LF7DPGgC0j7VcDKwl0cufQsSlvlgy_x.jpg",
-            "https://houseofkillingwebsite.s3.amazonaws.com/socialmediapic.jpg",
-            "https://houseofkillingimageboard.s3.amazonaws.com/0ma9eX_sSANWXxo_jqOTTQzlznDhS8-y.png"
+            "https://houseofkillingwebsite.s3.amazonaws.com/waiting4content/saopaulo.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/waiting4content/waiting4contentstill1.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/waiting4content/waiting4contentstill4.jpg"
         ],
-        "descriptions": "collab with Esben Holk",
-        "class": "boob"
+        "descriptions": "video created for Brunno Silvas curational project and -residency: Parralel Screens",
+        "locations": [
+            "Hermes Artes Visuais- Sao Paolo(11-12/10)",
+            "Porto Vista Hotel- San Diego(11/07-18/08)",
+            "Nova- Weimar DE(12/11)"
+        ],
+        "class": "waiting4content"
     },
     {
-        "name": "machine peace",
+        "name": "CLUB TROPICANA",
         "images": [
-            "https://houseofkillingimageboard.s3.amazonaws.com/-LF7DPGgC0j7VcDKwl0cufQsSlvlgy_x.jpg",
-            "https://houseofkillingwebsite.s3.amazonaws.com/socialmediapic.jpg",
-            "https://houseofkillingimageboard.s3.amazonaws.com/0ma9eX_sSANWXxo_jqOTTQzlznDhS8-y.png"
+            "https://ucdce425ccf725fe3166bf2fc03a.previews.dropboxusercontent.com/p/thumb/AAsYy7JMu4X9XhrQOpPyYADmfZC8YKw8FrAv6ykHsKS16yPvRTmNDf2IQ0lO1tF-Arvv9UmyeeHw97jcQV7lMFVQiEJwFCJE1CWZQqr7eGILgSptjXJkLM6OIf4q9sx_NDn8fFVXEe8QdpzsrEcwex7DpP2j_OkA0t46ga-R9cDRhef8aij4ke7RPvLW11LLQnBe2_2nas55MZGGCgP0l2t_3R96xhjtL_acFAuz7EFDJTAeimQKRMuDkCb2ecQyZphqW6n4rgGz6wvUk9_kcS4dvKYtJUMhBLmmZJ-xfKHYVwu_pIp1Czw6odv28BQTqw-FLcRRFttaB1kYkykXWh3RRZUjvPqni5EOvRDf1IwAl6IOML4aVsEv2OUve4HuTUH6A7Qvnp1OwCMq4q9FHrqDtcxlaTEkwSXD04IfxZb4BA/p.jpeg?fv_content=true&size_mode=5",
+            "https://uc02e14a989d26059feffa6ff7f7.previews.dropboxusercontent.com/p/thumb/AAtMY3wNEZ3yWhgFFmMbPcx5WRYPPSqpdWGiEMDe1EvXEbVvWjrGkP9KeFELMN9xUAnYElEw3stDlFdWBIRAhhleFHpDfXNEwYSppyC5xFmHSBhZml30r3khaJd4yM8ff4LFqxTmE70C4GEg_zRWvbtgqBoPPgMQoExWGSGZYqgqaIqLG7U7pKpFhymvfuZAbyrZngd6p_aid7TcvEvmHXBTTx0W3pds1k-eAHK_8lKvYuS0z87jxOxm01ju-aPaTqaUdgwBnAdcVj_qZoIBvUYJj3WJt-3fKmSbswpVf_hLTRas4RjseNiT1xmCnxkb7Ny-aXB-HoUatvDr7nmDr5ccGPZwFEwDSXz8ogtxXLzMurK5aT3uKNtLUv4w0Hcdq8fNoShS8bWpGHq2MvOXq7Fk2N6d1S50-4AKrEhXueuXzA/p.jpeg?fv_content=true&size_mode=5",
+            "https://uc0c4a2df92fa4b4f683d96b001b.previews.dropboxusercontent.com/p/thumb/AAu_cmqjf6GiYrqQsliF6ZB5nc4ULUCvfv78E_UzUvozQGrFpu7B5mqOUpNsaTUiTLkdipgz2LuB4raQQvcE6jIUabe0l3axhR42SLeEndr_E2wOjkm5FKIEbN8ty3ZPwDpGVrcA7eyehhBUIgiV4l6jsdavFW4XKtFwAgcIbNtLpnGSwHyu0EP12v6JWPQEOtKz5xReKNrfikvqBF3c_eIrCp-4xdv6msXSwN_QZbYmqeZm3ZGzhaydDsmI_bKvpFR982lJosbbMoMzGO6va_gN-_4V6MjpByWYAXEfTzLKpRn8v6Cooqh1xQFx6W9SNahNQskVo9Ea4PYOPXQNSqhRBtMPwWP7K8Ow_HdWhoD7zcY6o7SOUrkwmXy04Vgg7QDbEz3z1gB_mNupbvum4v5nnrqgniJeYRTQuGaevCW5pw/p.jpeg?size=1280x960&size_mode=3",
+            "https://ucc712ffe9ff3da638d3b0869fab.previews.dropboxusercontent.com/p/thumb/AAtjemR1P2EejfuSLIn7x9Gdg33-nwOVtLnZqrkmFQTjgsGqVjhRoiZO4R3faiulcs3h7HqhfweNMWz-pgXK210emNGtyZsAVn_uOmbVouOEgk7iUbt0Rph-9RUQ1O_wVcgQicg1QLeTJ_XSYSsGM1h4hDuNyX4IRHfgzM8WYhx5_LQK8dKQrXI1o36i0gen183dt-t6x_CK92Zw4se0qMoKoub4t56RGHsNiJ9aOg-_5fru-UpBi8WIXAnPsrvORyAcwqeA7RKVL12VFWly3OvW32LrvjGbqmQN6zqZJOUxCnCDz0GVQWwSVhdDae5HHCqgtLFzCIzpDbWwgpPAnxbVE1TMjj0Yzfxt7EAbTL1Q0qWbpaHEABPdWbPMHDKzKLVw9mY-4sxhlNKuczEjHcvGp9susj_Qqy12LgZXt0a0Ig/p.jpeg?fv_content=true&size_mode=5",
+            "https://uc9439a80b2ad7f9c42f9ff56e38.previews.dropboxusercontent.com/p/thumb/AAvgg8z7fumjBiPT66RJXfLyAmqyFrj4YSxLZ5LOx3ufiAOsskhAENA9a835kulC2V8sGKTyEMHo-ONFnpC4KhUPuGOAy-2QKqWjallk7Cct-HFM3hxKQp2yYKY4KoD4ri0PY9iHvbomWRObk_-ih1mMLwQZFPlhWpG4hA6pyoucc64jQ1TumVq6UCuOS-KglSMRNkwipsc1cUqNGCtHmPIgdPwr0ARaM2occw6VD7nAorbyKs3dy16kzK7x0IUAIMQmdTevNvREiUzRKaEkXQpHvvIvDRHngS6V91JzVCd3gSukAUz7vblxfXDnZBFzZIuNIZU_dxTu_UsWFlvOPLkI3jFMra33PeOHGQQ8eBnFfL5VuYJp3ZzyRzSMJJbdVw1wExxp0ui3W6Z--V0n_enKSdv5rsBiIFiL5xJUV7XX-Q/p.jpeg?fv_content=true&size_mode=5",
+            "https://uccec6f2af3def2898d7b28cf08f.previews.dropboxusercontent.com/p/thumb/AAsIcMbOGMihKzy6QsalikCYy-LFgeJRWkLOuN53QYir22YAVyJ4ozPuPviJmwwcSV6-nkTBgN6_kuJp7qPBMggPpu2ogNDdALU-N6OnoqzrO81-bXNYYCSjKFTHWDbl-8zKgUDA7k-FcWEbEi_xkHX5KgxrB3cghaPT8zRoitypXCr_3B6e70zIClow9TS1JkYyRlDLr5rlVidmrYzzGriA33hYKCpef4fItbzAK9LE-7BJNtxwW1BQHVyx_dg7aIzetwY4kD2ydhjFNsqOC4R0bWvNvQKn8GTunUI7IPEMfktC4FB8ffoZWV8i9pz82GAAaHQDGkF93GcrYhU7aN1rvxxCwbpMs9_YAlegsRlFWf0CHxWOxZ0IO7_QkjJrFbVLoVG-a4d7z9wvL-KmRSXblcIvxHp3Jm1CJpnkpA9cxw/p.jpeg?size=1280x960&size_mode=3",
+            "https://uc1390144d7f57842f4166c192ed.previews.dropboxusercontent.com/p/thumb/AAsQMPXyjmR8_LtO87AScgOUgLXofxnUVp0rYAus9B9e8rlDGKRVjAd8pnUd20SqrzOMS09BElUc-M0cEL0HJwd0fdzWSiCcG3TemROFL1pQ3I80ax7GsBLOq2RXXQwWVbh0xTOTyFPsJjY5z7glFA0PvmSxIfTHlu4ylTyBPdfZvH9yWan6WjRAAUyhb1kCBOUiR_izD651dLqSoCZN1uSBz83iWjqrO4az0eD5wi4-oKoYTg3qN7EUJxYE6tuk3NtFxZ7F_fQftJUURpBDpffFPUvcNeiFeVFdJHWKeiyvMYkJAB4sIzDSahbew-MSEZtp_Jbj6rg20Fyc1lT9Vxc3niUQGxqkHyI_eq3ElHEvNoLZGMpEcuek0BaxlhsDbpW7hdEPIqOtVu2oghgltxiUrpthDhctsF1aW2xsLsXuTQ/p.jpeg?fv_content=true&size_mode=5",
+            "https://uc09658793bc88e64baa758a864c.previews.dropboxusercontent.com/p/thumb/AAsx9YDGiJBQHtUGxc4BndivXCDG6J5GHQBkdKOwRJytMpH26wjKJEQJp-9ZAl8kODz6l3umgo81yiYmblBbHqmcAFqfPnofOcvv_5n0n3713XCN--Uhdw_4Tdl7D2iuOKWQeYGeqMfm45dvCVU3h_oHhQ2i50IGZAOpKNr7fQNq6R1qUMoZRZzcE1Ml2ijQq3yN4eksazzUOBbJ9eeu9Fd58Utk6jq29NhGsoRaKII5fiPjelOVC-9oDkA-isunLKj3DQkOU6eQQboqxhat4a6riR89fw0wUNDkzAvrujg1RNJCDnOt_y5FRAtjuUh8d7n7xjytsgZ1EsxlFv7U-v2kZoy-o2meLWwNW0fEOrXUmA/p.jpeg?size=1280x960&size_mode=3",
+            "https://uc470c020fa420700f479958e887.previews.dropboxusercontent.com/p/thumb/AAuvsTT2jraLTp8ZnuvLorpbW6Y7XM_46kvIxeJhhXi41WHssm_Pir_VorjNBtLTLei4KZQdRHC3kxwK3zb-lxityeVKyX3fWwgQNR9TcYzXFO1bbfRInIrqcePguvUWZmGzTBojvAtscXtufFQSMPzoSxviKX0aLXfxtX2g_HbFbO4B6g4OylPqohMxO6iaMts0Z9627MBkmoOAzzHvXKpyH9vAu-gP6e5jcY_9gCFTNVXGcIAlZIEMFDM2egMBAlLa2GRNlw1ee2Q9iy40X-0CYg-In6oGwoHaTyCnuek_LxsLSoFby-bksJYV3dpnKtc_5dCl4Oo_4OLhOhkJaD_ebOiYM45SCPLHRMUoeSmfZA/p.jpeg?size=1280x960&size_mode=3",
+            "https://uce07322eb22e4886d58c60c4f11.previews.dropboxusercontent.com/p/thumb/AAsnUqw_4in_e_9TdlCZvqTteoKGLQk1UWrqjA1k7NV904AjHHrQA2FEgluvNJ_Y6TEkpxJuT7MlIhMArcIr5d7FkzozAL0BlUd8dYrnwvRjXdEwLlx8J_lqKlZB6Z2ea99lKlsOkZg9MdAvoEp06GF2Z2rWS3tMulqG-kqXK8WKzld9moXGtJlXPsgaRf13LOVh_RWd4NDfDDHCE5IRNlUcvtd-qJgb6brJwfiEIabvOJ4SV8u27XA3EmmByxi1nVNUARfiQ96a4jHqBD4IBXwLX79KIUyoI2i73LQv52y-EDgBcpDx_AZndtP4gvbOtmuyhuEPrqbPKvp-6V6MZkNUtcziaFE9soJ6Obz2Jji1hQ/p.jpeg?size=1280x960&size_mode=3",
+            "https://uc30c27dd7f7c962e7cb534b17d2.previews.dropboxusercontent.com/p/thumb/AAvksPHhlnQjm5EnZ8VEa1_KQIVn6lBBIAHQYFIh5Q5UYg2f-RTgsoX1nb_nW_TV98bxP5DerWonr3Ya2e_sRLAaFyNEqa2IuM6bltPiSidhvMlL0qTtzUQ1gIiHKm_5EIiKCdai5nEWgJjcsP3S9gVTvdb7-dYVyXGsHSaIqDpg566nC7s5UKOYeVO8aCJHR9T-DDCH-oXegn_69EyWP3jdCR-pVxpH8yajwHXSH9_Wo3x1qaOTl9VdvglWFNNEQBn0HAk9A2TYTYER2EUPSmoGk4KlCPdAK7mhbsC9bq6ISu9apko0RLBGsOgfFSw1pGHMNVAW5orNDAoBScYbJSOQX2tUedSBKt-p9QeqrGGbDQ/p.jpeg?size=1280x960&size_mode=3",
+            "https://uc9409859a86a94f73d11a290b69.previews.dropboxusercontent.com/p/thumb/AAs8_vxq7R87dD8hClPAicl3HC-BBl3dwN4ZWrwmbDc9qR9pYn-bSadnqfvNCETYcrCYIv0XQhXxSqLL1KFJ5lKQANPpN1mBE3t6MpNJ2rX8gXHy2ohZAOjBpS4mWeZ4Gkkrs4cYn8XIfwy80lQ1vTM1kwRlJ6F2TeRFsz_bbFu-QjvDLu9rFHyuCNReFWTBgeKTdkBk9iXxDjo0a5sTh1eqBm0zOSNaV07jXChYW3mTF4sdAJ-3x_fSs5Hcz-6aX8aOyUSlb3V5TCUqDSU_HTeUSUHfZYVQdHMFohsFE2WNUB-eE5jKvDFh_INiBS_SUHZG7I0xDMth8QRZsCqI9lo1uG0sCHsecePGAd8EYDV61Q/p.jpeg?fv_content=true&size_mode=5",
+            "https://uc0c1a29642a7936aef93dabdd31.previews.dropboxusercontent.com/p/thumb/AAsUMIup3TyPhRxub4rwksZf_6g5Ti8tKK8N00lnPKogKeB5W6Z_1JkmhBpXf1VnwZxKKMXftuRXbHdhbKv7HZ1VddtMhLbVmmENULSyLg3AH8-5Wn1FRDh4DJGEFOw7FQMZkl6C59EmGhZzFJ8lR_KbQ2GByeCeRkX4dVdqkvVOt8XForjdtyydrBuJ42zQ3cUm5S-GfR_83OIUZfiUNitmOGiqiI2eKGdANqvWaBkvCkfhNwjpeVwKyTOlIaDNGp2jRZuZfpFHmfVJkrHx6zglOeIEtu42itss8HNFvTtwLnqffI02zV1DNNwwvKEiEk7TGdYapgghivk6zbnv_kvTFR_S6P381N36vt_fvAid5A/p.jpeg?size=1280x960&size_mode=3"
         ],
-        "descriptions": "collab with Esben Holk",
-        "class": "looo"
+        "descriptions": "curational project w/ Maansi Jain",
+        "locations": ["DADA POST, august 2019, Berlin"],
+        "class": "tropicana"
+    },
+    {
+        "name": "#PACKYOURSTUFF",
+        "images": [],
+        "descriptions": "video created for Brunno Silvas curational project and -residency: Parralel Screens",
+        "locations": [],
+        "class": "waiting4content"
     }
 ]

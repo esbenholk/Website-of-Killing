@@ -7,14 +7,18 @@ import data from "../data.json";
 console.log("hej baby");
 
 let game = true;
+let images = [];
 
-let images = [
-    "./artcv.jpg",
-    "./projects/fanficballhaus.jpg",
-    "https://houseofkillingimageboard.s3.amazonaws.com/-LF7DPGgC0j7VcDKwl0cufQsSlvlgy_x.jpg",
-    "https://houseofkillingwebsite.s3.amazonaws.com/socialmediapic.jpg",
-    "https://houseofkillingimageboard.s3.amazonaws.com/0ma9eX_sSANWXxo_jqOTTQzlznDhS8-y.png"
-];
+let imagearrays = [];
+for (var i = 0; i < data.length; i++) {
+    imagearrays.push(data[i].images);
+}
+imagearrays.forEach(array => {
+    for (var i = 0; i < array.length; i++) {
+        images.push(array[i]);
+    }
+});
+
 export default class App extends Component {
     constructor(props) {
         super(props);

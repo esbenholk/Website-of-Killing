@@ -38,7 +38,24 @@ export default class Archive extends Component {
                             </button>
                             <div className="detail" id={project.class}>
                                 <div className="detailbox">
-                                    <p>{project.descriptions}</p>
+                                    <div>
+                                        <p>
+                                            {" "}
+                                            {project.descriptions} <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            {project.locations.map(location => (
+                                                <ul
+                                                    key={location}
+                                                    className="location"
+                                                >
+                                                    {location}
+                                                </ul>
+                                            ))}
+                                        </p>
+                                    </div>
+
                                     <div id="documentation">
                                         {project.images.map(image => (
                                             <div key={image}>
