@@ -14,10 +14,9 @@ for (var i = 0; i < data.length; i++) {
     imagearrays.push(data[i].images);
 }
 imagearrays.forEach(array => {
-    for (var i = 0; i < array.length; i++) {
-        images.push(array[0]);
-    }
+    images.push(array[0]);
 });
+console.log(images);
 
 export default class App extends Component {
     constructor(props) {

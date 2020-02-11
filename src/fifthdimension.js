@@ -173,7 +173,8 @@ export default class FifthDimension extends Component {
             });
             var box = new THREE.Mesh(boxGeometry, boxMaterial);
             box.position.x = Math.floor(Math.random() * 20 - 10) * 10;
-            box.position.y = Math.floor(Math.random() * 20) * 2;
+            // box.position.y = Math.floor(Math.random() * 20) * 2;
+            box.position.y = 20;
             box.position.z = Math.floor(Math.random() * 20 - 10) * 10;
             boxes.push(box);
             scene.add(box);
@@ -228,7 +229,7 @@ export default class FifthDimension extends Component {
 
         for (var i = 0; i < boxes.length; i++) {
             // boxes[i].rotation.y += 0.005;
-            boxes[i].rotation.z += 0.005;
+            boxes[i].rotation.y += 0.003;
         }
 
         renderer.render(scene, camera);

@@ -10,7 +10,6 @@
             "https://houseofkillingwebsite.s3.amazonaws.com/aniston/IMG_2130.jpg",
             "https://houseofkillingwebsite.s3.amazonaws.com/aniston/IMG_2156.jpg",
             "https://houseofkillingwebsite.s3.amazonaws.com/aniston/iheartberlinevent1.jpg",
-            "https://houseofkillingwebsite.s3.amazonaws.com/aniston/iheartberlinevent2.jpg",
             "https://houseofkillingwebsite.s3.amazonaws.com/aniston/iheartberlinevent3.jpg",
             "https://houseofkillingwebsite.s3.amazonaws.com/aniston/fan2ficballhaus0572rohmk.jpg"
         ],
@@ -113,5 +112,61 @@
             "created for Insolence: The prerogative of youth, curated by Howard McCaleb, DADA POST 2018"
         ],
         "class": "SexyHouse"
+    },
+    {
+        "name": "Let me tell u about the time I got the cosmos fucked out of me",
+        "images": [
+            "https://houseofkillingwebsite.s3.amazonaws.com/queermyth/page1.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/queermyth/page2.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/queermyth/page3.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/queermyth/page4.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/queermyth/page5.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/queermyth/page6.jpg",
+            "https://houseofkillingwebsite.s3.amazonaws.com/queermyth/page7.jpg"
+        ],
+        "videos": [],
+        "descriptions": "digital collage 2018",
+        "locations": [
+            "made for Pornceptual Magazine 2018",
+            "presented with Strangelove Festival 2018",
+            "Thessaloniki Queer Arts Festival 2018",
+            "ErotikAfton w/ Fennek Film 2019"
+        ],
+        "class": "cosmos"
+    },
+    {
+        "name": "#PACKYOURSTUFF gif archive",
+        "images": [
+            "https://houseofkillingwebsite.s3.amazonaws.com/packyourstuff/11.gif",
+            "https://houseofkillingwebsite.s3.amazonaws.com/packyourstuff/13.gif",
+            "https://houseofkillingwebsite.s3.amazonaws.com/packyourstuff/23.gif",
+            "https://houseofkillingwebsite.s3.amazonaws.com/packyourstuff/26.gif",
+            "https://houseofkillingwebsite.s3.amazonaws.com/packyourstuff/5.gif"
+        ],
+        "videos": [],
+        "descriptions": "gif archive in 3 parts: 1) #OhShitNoWiFi, 2) #TheEndIsNear, 3) #ToTheStars",
+        "locations": [
+            "@ www.offsiteproject.org/ZIP, download exhibition curated by Clusterduck and Wade Wallerstein, 2019"
+        ],
+        "class": "packyourstuff"
+    },
+    {
+        "name": "Cybopticon.life",
+        "images": [
+            "https://houseofkillingwebsite.s3.amazonaws.com/cybopticon/_MG_0877.JPG",
+            "https://houseofkillingwebsite.s3.amazonaws.com/cybopticon/_MG_0866.JPG",
+            "https://houseofkillingwebsite.s3.amazonaws.com/cybopticon/_MG_0863.JPG",
+            "https://houseofkillingwebsite.s3.amazonaws.com/cybopticon/_MG_0870.JPG",
+            "https://houseofkillingwebsite.s3.amazonaws.com/cybopticon/Screen+Shot+2018-02-17+at+16.01.03.png",
+            "https://houseofkillingwebsite.s3.amazonaws.com/cybopticon/IMG_1150.JPG",
+            "https://houseofkillingwebsite.s3.amazonaws.com/cybopticon/IMG_1200.JPG"
+        ],
+        "videos": ["https://www.youtube.com/embed/iBbRO0UTMOY"],
+        "descriptions": "performance installation w/ Lena Chen and Stephanie Ballentine",
+        "locations": [
+            "developed as We Play 4 U Now @ FKK kollectiv Berlin",
+            "presented w/ Feedback#2 Marshall McLuhan and the Arts, @Eigen+Art Lab Berlin, curated by Baruch Gottlieb 2017"
+        ],
+        "class": "cybopticon"
     }
 ]
